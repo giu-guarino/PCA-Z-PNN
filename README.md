@@ -37,7 +37,7 @@ All rights reserved.
 This software should be used, reproduced and modified only for informational and nonprofit purposes.
 
 By downloading and/or using any of these files, you implicitly agree to all the
-terms of the license, as specified in the document [`LICENSE`](https://github.com/giu-guarino/PCA-Z-PNN/LICENSE.txt)
+terms of the license, as specified in the document [`LICENSE`](https://github.com/giu-guarino/PCA-Z-PNN/blob/main/LICENSE.txt)
 (included in this package)
 
 ## Prerequisites
