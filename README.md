@@ -10,15 +10,13 @@ The proposed method has been tested on three real hyperspectral images (PRISMA D
 
 If you use PCA-Z-PNN in your research, please use the following BibTeX entry.
 
-<!---->
-
-@article{Guarino2023pca,
-  title={PCA-CNN Hybrid Approach for Hyperspectral Pansharpening},
-  author={Guarino, Giuseppe and Ciotola, Matteo and Vivone, Gemine and Poggi, Giovanni and Scarpa, Giuseppe},
-  journal={IEEE Geoscience and Remote Sensing Letters},
-  year={2023},
-  publisher={IEEE}
-}
+    @article{Guarino2023pca,
+      title={PCA-CNN Hybrid Approach for Hyperspectral Pansharpening},
+      author={Guarino, Giuseppe and Ciotola, Matteo and Vivone, Gemine and Poggi, Giovanni and Scarpa, Giuseppe},
+      journal={IEEE Geoscience and Remote Sensing Letters},
+      year={2023},
+      publisher={IEEE}
+    }
 
 ## Team members
 
