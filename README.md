@@ -112,4 +112,3 @@ You can find the dataset used in this work at these links:
 *   [ROSIS](https://paperswithcode.com/dataset/pavia-university)
 
 In the experiments reported in the paper, Pavia University Dataset has been downgraded with a ratio 6 (same ratio of PRISMA sensor).
-# PCA-Z-PNN
