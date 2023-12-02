@@ -54,6 +54,7 @@ def xcorr_torch(img_1, img_2, half_width):
     sig2_ii_tot = (i2_cum[:, :, 2*w:, 2*w:] - i2_cum[:, :, :-2*w, 2*w:] - i2_cum[:, :, 2*w:, :-2*w] + i2_cum[:, :, :-2*w, :-2*w])
     sig2_jj_tot = (j2_cum[:, :, 2*w:, 2*w:] - j2_cum[:, :, :-2*w, 2*w:] - j2_cum[:, :, 2*w:, :-2*w] + j2_cum[:, :, :-2*w, :-2*w])
 
+    sig2_ij_tot = torch.clip(sig2_ij_tot, ep, sig2_ij_tot.max().item())
     sig2_ii_tot = torch.clip(sig2_ii_tot, ep, sig2_ii_tot.max().item())
     sig2_jj_tot = torch.clip(sig2_jj_tot, ep, sig2_jj_tot.max().item())
 
